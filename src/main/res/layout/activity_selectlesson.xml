@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/man1">
+
+    <RelativeLayout
+        android:id="@+id/dong1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+
+        <Button
+            android:id="@+id/bt_back"
+            android:layout_width="55dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custombackbutton" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="1000"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/mauvang"
+                android:textSize="20sp" />
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/sao"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/chonbaihoc"
+            />
+
+    </RelativeLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:id="@+id/dong2"
+        android:layout_height="5dp"
+        android:layout_below="@+id/dong1"/>
+    <RelativeLayout
+        android:layout_below="@+id/dong2"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/nentrang"
+
+        >
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:id="@+id/space"
+            />
+        <LinearLayout
+            android:layout_below="@+id/space"
+            android:id="@+id/phiatren"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/customhomkhobau"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHƯƠNG 1"
+                    android:textColor="@color/mauchublue"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/bt2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/customhomkhobau"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHƯƠNG 2"
+                    android:textColor="@color/mauchublue"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/bt3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/customhomkhobau"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHƯƠNG 3"
+                    android:textColor="@color/mauchublue"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_below="@+id/phiatren"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/bt4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/customhomkhobau"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHƯƠNG 4"
+                    android:textColor="@color/mauchublue"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/customhomkhobau" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHƯƠNG 5"
+                    android:textColor="@color/mauchublue"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/bt6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginRight="45dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/customhomkhobau"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CHƯƠNG 6"
+                    android:textColor="@color/mauchublue"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/hang1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        >
+
+
+        <Button
+            android:id="@+id/bt_pause"
+            android:layout_width="59dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bt_pause"
+            android:layout_alignParentRight="true"/>
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bien">
+
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="00:00"
+                android:textAlignment="center"
+                android:textColor="@color/color_diem"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/nut_thoat"
+            android:layout_width="59dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custombackbutton" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bang"
+        android:weightSum="7">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2">
+
+            <GridView
+                android:id="@+id/gr_v"
+                android:numColumns="10"
+                android:layout_width="500dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+              />
+
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/tv_Ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="cau hoi"
+            android:textSize="@dimen/text_size"
+            android:layout_gravity="center_horizontal"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"
+            android:layout_weight="5">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_centerHorizontal="true">
+
+
+                <Button
+                    android:id="@+id/bt_da1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="A" />
+
+                <Button
+                    android:id="@+id/bt_da2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="B" />
+
+                <Button
+                    android:id="@+id/bt_da3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="C" />
+
+                <Button
+                    android:id="@+id/bt_da4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="D" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:text="tiếp theo"
+                android:background="@drawable/custom_next"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

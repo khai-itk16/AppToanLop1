@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp">
+        <Button
+            android:id="@+id/bt_dung"
+            android:layout_width="59dp"
+            android:layout_height="62dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bt_pause"
+            android:layout_alignParentRight="true"/>
+        <RelativeLayout
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/bien">
+
+            <TextView
+                android:id="@+id/tv_countdown"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="00:00"
+                android:textAlignment="center"
+                android:textColor="@color/color_diem"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/nut_thoat"
+            android:layout_width="59dp"
+            android:layout_height="62dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/custombackbutton" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bang"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        >
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+            android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_ve1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="ve 1"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size_button"/>
+        </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                >
+                <Button
+                    android:id="@+id/bt_lonhon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    />
+                <Button
+                    android:id="@+id/bt_behon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   />
+
+                <Button
+                    android:id="@+id/bt_bang"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    />
+
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:id="@+id/tv_ve2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="ve 2"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/text_size_button"/>
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:text="tiếp tục"
+                    android:background="@drawable/custom_next"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginRight="20dp"/>
+            </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
